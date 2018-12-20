@@ -1,0 +1,17 @@
+{
+  "name": "arduinojs-starter",
+  "version": "1.0.0",
+  "description": "Playing with arduino and nodeJS",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hamlet León",
+  "license": "ISC",
+  "dependencies": {
+    "hoek": "^6.1.2",
+    "johnny-five": "^1.0.0",
+    "node-pre-gyp": "^0.12.0",
+    "socket.io": "^2.2.0"
+  }
+}
