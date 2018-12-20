@@ -43,25 +43,25 @@ board.on("ready", function() {
         console.log('A client is connected!');
         
         socket.on("Relay1", (status) => {
-            console.log("Relay1 status: " + status);
+            // console.log("Relay1 status: " + status);
             if (status === true) relay1.high();
             else if (status === false) relay1.low();
         });
         
         socket.on("Relay2", (status) => {
-            console.log("Relay2 status: " + status);
+            // console.log("Relay2 status: " + status);
             if (status === true) relay2.high();
             else if (status === false) relay2.low();
         });
         
         socket.on("Relay3", (status) => {
-            console.log("Relay3 status: " + status);
+            // console.log("Relay3 status: " + status);
             if (status === true) relay3.high();
             else if (status === false) relay3.low();
         });
         
         socket.on("Relay4", (status) => {
-            console.log("Relay4 status: " + status);
+            // console.log("Relay4 status: " + status);
             if (status === true) relay4.high();
             else if (status === false) relay4.low();
         });
